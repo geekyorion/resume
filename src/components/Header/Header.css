@@ -5,12 +5,13 @@
 
 .name-text {
   font-size: 2.6rem;
+  font-weight: 500;
 }
 
 .role-text {
   font-size: 1.8rem;
   margin: 0.5rem 0;
-  /* border-bottom: 0.2rem solid; */
+  font-weight: 500;
   padding-bottom: 0.5rem;
   width: fit-content;
   color: var(--color-red);
