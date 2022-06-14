@@ -57,7 +57,7 @@
       }
     ],
     "image": {
-      "url": "/assets/images/profile.jpeg",
+      "url": "./assets/images/profile.jpeg",
       "showImage": true
     }
   },
