@@ -2,9 +2,10 @@
   "name": "resume-builder",
   "description": "A simple resume built using JSON data",
   "version": "0.1.0",
+  "homepage": "https://geekyorion.github.io/monster-rolodex/",
   "author": {
     "name": "geekyorion",
-    "url": "https://github.com/geekyorion/resume"
+    "url": "https://github.com/geekyorion/"
   },
   "private": true,
   "dependencies": {
@@ -22,7 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -41,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
