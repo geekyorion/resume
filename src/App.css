@@ -1,1 +1,18 @@
-.wrapper { }
+.wrapper {
+  margin: 1rem auto;
+  border: 1px solid #444;
+}
+
+.wrapper.size-A4 {
+  width: 793.7007874px;
+  height: 1122.519685px;
+}
+
+.wrapper.height-auto {
+  height: auto;
+}
+
+._header {
+  background: var(--color-grayblue);
+  color: var(--color-white, #fff);
+}

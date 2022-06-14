@@ -1,0 +1,82 @@
+.header-section {
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+.name-text {
+  font-size: 2.6rem;
+}
+
+.role-text {
+  font-size: 1.8rem;
+  margin: 0.5rem 0;
+  /* border-bottom: 0.2rem solid; */
+  padding-bottom: 0.5rem;
+  width: fit-content;
+  color: var(--color-red);
+}
+
+.bio-text {
+  font-size: 1.4rem;
+}
+
+.bio-and-image {
+  display: flex;
+  align-items: center;
+}
+
+.image-wrapper {
+  padding-right: 1rem;
+}
+
+.image-wrapper img {
+  width: 100px;
+  border-radius: 50%;
+  border: 0.2rem solid var(--color-red);
+}
+
+.all-links {
+  background: #121d2e;
+  width: calc(100% + 2rem);
+  margin-left: -1rem;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+
+.contacts-wrapper, .links-wrapper {
+  display: flex;
+  padding: 0.5rem 1rem;
+  align-items: center;
+}
+
+.contacts-wrapper > .contact,
+.links-wrapper > .link {
+  margin-right: 2rem;
+  display: flex;
+}
+
+.contact-icon, .link-icon {
+  position: relative;
+  top: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.contact-icon > svg, .link-icon > svg {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.link-hr {
+  border: none;
+  border-top: 1px solid var(--color-red);
+  width: calc(100% - 2rem);
+  margin-left: 1rem;
+  margin-top: 0.2rem;
+}
+
+.contact-icon.scaled-up-icon,
+.link-icon.scaled-up-icon {
+  margin-right: 0.75rem;
+  transform: scale(1.6);
+}
+
