@@ -15,9 +15,15 @@
         "isHiddne": false,
         "icon": "phone"
       }, {
+        "type": "website",
+        "value": "Resume",
+        "isHidden": false,
+        "icon": "website",
+        "link": "https://geekyorion.github.io/resume"
+      }, {
         "type": "address",
         "value": "Hyderabad, Telangana",
-        "isHidden": true,
+        "isHidden": false,
         "icon": "address"
       }
     ],
@@ -46,12 +52,13 @@
         "type": "NPM",
         "value": "https://npmjs.com/~geekyorion",
         "isHidden": false,
-        "icon": "npm"
+        "icon": "npm",
+        "iconClass": "scaled-up-icon"
       }
     ],
     "image": {
-      "url": "",
-      "showImage": ""
+      "url": "/assets/images/profile.jpeg",
+      "showImage": true
     }
   },
   "experience": [
