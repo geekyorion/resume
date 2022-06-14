@@ -18,3 +18,27 @@ code {
   padding: 0;
   margin: 0;
 }
+
+:root {
+  font-size: 10px;
+  --color-red: #f35a4d;
+  --color-grayblue: #253c5d;
+  --color-white: #fff;
+  --color-link: #ddd;
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited, a:active, a:hover {
+  color: var(--color-link);
+}
+
+a:hover {
+  color: var(--color-white);
+}
+
+/* https://icomoon.io/app/#/select/library */
