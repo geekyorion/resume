@@ -25,7 +25,7 @@
 
 .work-wrapper {
   padding: 0 0.5rem;
-  border-left: 0.2rem solid var(--color-red);
+  /* border-left: 0.2rem solid var(--color-red); */
   margin: 1rem 0;
 }
 
@@ -37,7 +37,11 @@
 }
 
 .projects {
-  padding-left: 1rem;
+  padding-left: 2rem;
+}
+
+.project {
+  margin: 0.5rem 0;
 }
 
 .projects ul ::marker {
