@@ -11,7 +11,7 @@ import './App.css';
 
 const App = () => {
   const [state] = useState(userData);
-  const { header, experience, education, projects, others } = state;
+  const { header, experience, education, projects, others, footer } = state;
 
   return (
     <div className="wrapper size-A4">
@@ -37,6 +37,14 @@ const App = () => {
             <Extra data={others} />
           </div>
         </div>
+      </div>
+
+      <div className="footer">
+        { footer.info }
+        {' - '}
+        <span className="footer-link">
+          [<a href={footer.link} target="_blank" rel="noopener noreferrer">&nbsp;{footer.link}&nbsp;</a>]
+        </span>
       </div>
     </div>
   );
