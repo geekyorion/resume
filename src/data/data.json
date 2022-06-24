@@ -59,6 +59,11 @@
         "value": "https://www.npmjs.com/package/geekyorion",
         "isHidden": false,
         "icon": "terminal"
+      }, {
+        "type": "Twitter",
+        "value": "https://twitter.com/geekyorion_",
+        "isHidden": true,
+        "icon": "twitter"
       }
     ],
     "image": {
@@ -93,7 +98,7 @@
             },
             {
               "name": "T-Rux",
-              "technologies": ["Angular", "Git", "Keycloak"],
+              "technologies": ["Angular", "Git", "Keycloak", "ThreeJS"],
               "responsibilities": [
                 "Enhanced UX by providing the ability to integrate survey data into an SPA",
                 "Reduced finish time by 50% to create a complete task"
@@ -184,6 +189,16 @@
       "technologies": ["MERN", "Git", "Redux", "Heroku"],
       "desc": "A social platform where developers can connect, post and handle their profiles",
       "link": "https://geekyorion.github.io/devSocialMedia/"
+    }, {
+      "name": "Gradient Code",
+      "technologies": ["React", "CSS3", "HTML5 Canvas"],
+      "desc": "A web app to create, save, edit and download the gradients",
+      "link": "https://geekyorion.github.io/gradient_code/"
+    }, {
+      "name": "FreeCodeCamp",
+      "technologies": ["React", "JavaScript", "CSS3", "HTML5 Canvas"],
+      "desc": "10 small projects based on certification",
+      "link": "https://geekyorion.github.io/freecodecamp/"
     }
   ],
   "others": {
