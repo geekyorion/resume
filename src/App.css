@@ -16,3 +16,16 @@
   background: var(--color-grayblue);
   color: var(--color-white, #fff);
 }
+
+.sections {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-section {
+  flex: 3;
+}
+
+.right-section {
+  flex: 2;
+}

@@ -1,0 +1,73 @@
+.experience-wrapper {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.experience-header-text {
+  color: var(--color-darkblue);
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
+.company-name {
+  font-size: 2rem;
+  color: var(--color-red);
+  font-weight: 500;
+}
+
+.exp-info, .work-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+  font-style: italic;
+}
+
+.work-wrapper {
+  padding: 0 0.5rem;
+  border-left: 0.2rem solid var(--color-red);
+  margin: 1rem 0;
+}
+
+.work-role {
+  color: var(--color-red);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.projects {
+  padding-left: 1rem;
+}
+
+.projects ul ::marker {
+  color: var(--color-red);
+  font-size: 2rem;
+}
+
+.project-name {
+  position: relative;
+  font-size: 1.4rem;
+  font-weight: 500;
+  top: -0.3rem;
+}
+
+.project-technologies {
+  font-style: italic;
+  color: var(--color-red);
+  display: flex;
+}
+
+.project-technologies-values {
+  margin-left: 1rem;
+  font-style: normal;
+}
+
+.responsibilties {
+  list-style: square;
+  padding-left: 2rem;
+}
+
+.responsibilties ::marker {
+  font-size: 1.3rem !important;
+}
