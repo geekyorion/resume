@@ -1,0 +1,28 @@
+.skills-scales {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-scale {
+  border-left: 0.2rem solid var(--color-red);
+  height: 0.5rem;
+}
+
+.skill {
+  margin: 0.5rem 0;
+}
+
+.skill-meter {
+  width: 100%;
+  height: 1rem;
+  padding: 0;
+  border: 0.1rem solid var(--color-grayblue);
+  border-radius: 1rem;
+}
+
+.skill-width {
+  width: 100%;
+  background: var(--color-red);
+  height: 100%;
+  border-radius: 1rem;
+}

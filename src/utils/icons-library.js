@@ -18,6 +18,10 @@ import {
   BsTwitter
 } from 'react-icons/bs';
 
+import {
+  CgWebsite
+} from 'react-icons/cg';
+
 const HEADER_CONTACT_ICONS = {
   email: <MdEmail />,
   phone: <MdPhone />,
@@ -35,7 +39,12 @@ const HEADER_LINKS_ICONS = {
   twitter: <BsTwitter />
 };
 
+const PROJECT_ICONS = {
+  website: <CgWebsite />
+}
+
 export {
   HEADER_CONTACT_ICONS,
-  HEADER_LINKS_ICONS
+  HEADER_LINKS_ICONS,
+  PROJECT_ICONS
 };

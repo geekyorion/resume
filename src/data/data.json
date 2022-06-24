@@ -188,34 +188,31 @@
       "name": "Dev Social Media",
       "technologies": ["MERN", "Git", "Redux", "Heroku"],
       "desc": "A social platform where developers can connect, post and handle their profiles",
-      "link": "https://geekyorion.github.io/devSocialMedia/"
+      "link": "https://geekyorion.github.io/devSocialMedia/",
+      "isHidden": false
     }, {
       "name": "Gradient Code",
       "technologies": ["React", "CSS3", "HTML5 Canvas"],
       "desc": "A web app to create, save, edit and download the gradients",
-      "link": "https://geekyorion.github.io/gradient_code/"
+      "link": "https://geekyorion.github.io/gradient_code/",
+      "isHidden": false
+    }, {
+      "name": "Libraries",
+      "technologies": ["JavaScript", "React", "Chalk", "Boxen"],
+      "desc": "Published libraries on NPM",
+      "link": "https://npmjs.com/~geekyorion/",
+      "isHidden": true
     }, {
       "name": "FreeCodeCamp",
       "technologies": ["React", "JavaScript", "CSS3", "HTML5 Canvas"],
       "desc": "10 small projects based on certification",
-      "link": "https://geekyorion.github.io/freecodecamp/"
+      "link": "https://geekyorion.github.io/freecodecamp/",
+      "isHidden": false
     }
   ],
   "others": {
     "achievements": [],
     "certificates": [
-      {
-        "org": "Microsoft",
-        "name": "Microsoft 70-480: Programming in HTML5 with JavaScript and CSS3",
-        "valid": {
-          "from": "Jun 04, 2019",
-          "to": "Present"
-        },
-        "link": null,
-        "containsSub": false,
-        "shouldShowSubs": false,
-        "subs": []
-      },
       {
         "org": "FreeCodeCamp",
         "name": "Responsive Web Design, DSA using JS, FE libraries",
@@ -249,7 +246,8 @@
         "name": "JS, React, Angular, Node, Python, etc.",
         "valid": {
           "from": "Sep 10, 2020",
-          "to": "Present"
+          "to": "Present",
+          "showCurrent": true
         },
         "link": "https://hackerrank.com/geekyorion",
         "containsSub": true,
@@ -311,6 +309,18 @@
             "issuedOn": "Sep 10, 2020"
           }
         ]
+      },
+      {
+        "org": "Microsoft",
+        "name": "Microsoft 70-480: Programming in HTML5 with JavaScript and CSS3",
+        "valid": {
+          "from": "Jun 04, 2019",
+          "to": "Present"
+        },
+        "link": null,
+        "containsSub": false,
+        "shouldShowSubs": false,
+        "subs": []
       }
     ],
     "skills": [
@@ -330,12 +340,28 @@
         "info": "Good"
       }
     ],
-    "Software": ["Bootstrap Studio", "VSCode", "Figma", "Ubuntu"],
+    "softwares": [
+      "Figma",
+      "VSCode",
+      "Git",
+      "Jira",
+      "Bootstrap Studio",
+      "Ubuntu",
+      "etc."
+    ],
     "interests": ["Chess", "Sudoku", "Listening to LoFi Music"],
     "languages": [
       { "language": "Hindi", "rating": 5, "info": "Native or Bilingual Proficiency" },
       { "language": "English", "rating": 4, "info": "Full Professional Proficiency" },
       { "language": "Spanish", "rating": 1, "info": "Elementary Proficiency" }
-    ]
+    ],
+    "showOnly": {
+      "achievements": false,
+      "certificates": true,
+      "skills": true,
+      "softwares": true,
+      "interests": true,
+      "languages": false
+    }
   }
 }

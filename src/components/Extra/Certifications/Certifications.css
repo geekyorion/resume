@@ -1,0 +1,61 @@
+.certificates, .sub-certificates {
+  padding-left: 1.5rem;
+}
+
+.certification-wrapper ul ::marker {
+  color: var(--color-red);
+  font-size: 2rem;
+}
+
+.certificate-name {
+  color: var(--color-red);
+  position: relative;
+  top: -0.3rem;
+  font-size: 1.5rem;
+}
+
+.certificate-basic-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.certificate-org {
+  font-weight: 500;
+}
+
+.certificate-issued-on {
+  font-style: italic;
+}
+
+.certificate-link a {
+  color: var(--color-darkblue);
+}
+
+.certificate-link a:hover {
+  color: var(--color-red);
+}
+
+.sub-certificates {
+  list-style-type: square;
+}
+
+ul.sub-certificates ::marker {
+  font-size: 1.3rem;
+}
+
+.sub-cert-name {
+  font-weight: 500;
+}
+
+.sub-cert-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  word-break: break-all;
+}
+
+.sub-cert-info .certificate-issued-on {
+  min-width: 7rem;
+  text-align: right;
+}
