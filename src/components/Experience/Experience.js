@@ -40,7 +40,9 @@ const Experinece = ({ data }) => {
               {work.showDescription && (
                 <ul className="work-desc">
                   {work.description.map((desc, descIndex) => (
-                    <li className="desc">{ desc }</li>
+                    <li className="desc" key={`desc-${index}-${workIndex}-${descIndex}}`}>
+                      { desc }
+                    </li>
                   ))}
                 </ul>
               )}
@@ -50,7 +52,7 @@ const Experinece = ({ data }) => {
                     <li className="project" key={`project-${project.name}-${projectIndex}`}>
                       <div className="project-name">{project.name}</div>
                       <div className="project-technologies">
-                        <div className="project-technologies-label">Technology Used: </div>
+                        <div className="project-technologies-label">Technologies Used: </div>
                         <div className="project-technologies-values">
                           {project.technologies.join(', ')}
                         </div>
