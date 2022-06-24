@@ -37,7 +37,7 @@
 }
 
 .all-links {
-  background: #121d2e;
+  background: var(--color-darkblue);
   width: calc(100% + 2rem);
   margin-left: -1rem;
   margin-top: 1rem;
