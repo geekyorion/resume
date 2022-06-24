@@ -71,6 +71,9 @@
 
 .project-technologies-label {
   color: var(--color-darkblue);
+  min-width: 10rem;
+  width: 100%;
+  max-width: 10rem;
 }
 
 .project-technologies-values {
