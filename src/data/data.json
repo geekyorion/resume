@@ -57,13 +57,13 @@
       }
     ],
     "image": {
-      "url": "./assets/images/profile.jpeg",
+      "imageName": "profile.jpeg",
       "showImage": true
     }
   },
   "experience": [
     {
-      "company": "Infosys",
+      "company": "Infosys Ltd",
       "duration": {
         "from": "21 May, 2018",
         "to": "present"
@@ -108,7 +108,7 @@
             "Developed well designed, testable, efficient code by using best software development practices",
             "Manging the modularity of the application to reduce the redundancy of the code"
           ],
-          "showDescription": false
+          "showDescription": true
         },
         {
           "role": "Systems Engineer",
