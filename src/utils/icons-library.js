@@ -13,7 +13,10 @@ import {
   FaTerminal
 } from 'react-icons/fa';
 
-import { BsMedium } from 'react-icons/bs';
+import {
+  BsMedium,
+  BsTwitter
+} from 'react-icons/bs';
 
 const HEADER_CONTACT_ICONS = {
   email: <MdEmail />,
@@ -28,7 +31,8 @@ const HEADER_LINKS_ICONS = {
   hackerrank: <FaHackerrank />,
   medium: <BsMedium />,
   npm: <FaNpm />,
-  terminal: <FaTerminal />
+  terminal: <FaTerminal />,
+  twitter: <BsTwitter />
 };
 
 export {
