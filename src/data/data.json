@@ -367,6 +367,6 @@
   "footer": {
     "info": "Created using ReactJS and hosted at: ",
     "link": "https://geekyorion.github.io/resume/",
-    "isHidden": false
+    "isHidden": true
   }
 }
