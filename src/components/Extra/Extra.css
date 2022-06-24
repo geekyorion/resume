@@ -1,0 +1,26 @@
+.extras-wrapper {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.extras-wrapper .sub-comp-header {
+  color: var(--color-darkblue);
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;;
+}
+
+.extras-wrapper > div {
+  margin-bottom: 2rem;
+}
+
+.skill-desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.skill-info {
+  font-size: 1rem;
+  color: var(--color-red);
+}
