@@ -1,6 +1,7 @@
 .wrapper {
   margin: 1rem auto;
   border: 1px solid #444;
+  position: relative;
 }
 
 .wrapper.size-A4 {
@@ -28,4 +29,19 @@
 
 .right-section {
   flex: 2;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  background-color: var(--color-darkblue);
+  padding: 0.4rem 1rem;
+  color: var(--color-white);
+  font-size: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-link a:hover {
+  color: var(--color-red);
 }
