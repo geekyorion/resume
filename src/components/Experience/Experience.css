@@ -36,6 +36,15 @@
   font-weight: 500;
 }
 
+.work-desc {
+  list-style: square;
+  padding-left: 1.5rem;
+}
+
+.work-desc ::marker {
+  color: var(--color-red);
+}
+
 .projects {
   padding-left: 2rem;
 }
@@ -58,13 +67,17 @@
 
 .project-technologies {
   font-style: italic;
-  color: var(--color-red);
   display: flex;
 }
 
+.project-technologies-label {
+  color: var(--color-darkblue);
+}
+
 .project-technologies-values {
-  margin-left: 1rem;
-  font-style: normal;
+  color: var(--color-red);
+  margin-left: 0.5rem;
+  font-style: normal;  
 }
 
 .responsibilties {

@@ -38,7 +38,11 @@ const Experinece = ({ data }) => {
                 </p>
               </div>
               {work.showDescription && (
-                <div className="work-desc">{ work.description }</div>
+                <ul className="work-desc">
+                  {work.description.map((desc, descIndex) => (
+                    <li className="desc">{ desc }</li>
+                  ))}
+                </ul>
               )}
               <div className="projects">
                 <ul className="project-list">
@@ -54,7 +58,7 @@ const Experinece = ({ data }) => {
                       <ul className="responsibilties">
                         {project.responsibilities.map((resp, respIndex) => (
                           <li className="project-responsibilty" key={`project-${project.name}-${projectIndex}-${respIndex}`}>
-                            {resp}
+                            { resp }
                           </li>
                         ))}
                       </ul>
