@@ -39,13 +39,13 @@ const App = () => {
         </div>
       </div>
 
-      <div className="footer">
+      {!footer.isHidden && (<div className="footer">
         { footer.info }
         {' - '}
         <span className="footer-link">
           [<a href={footer.link} target="_blank" rel="noopener noreferrer">&nbsp;{footer.link}&nbsp;</a>]
         </span>
-      </div>
+      </div>)}
     </div>
   );
 }
