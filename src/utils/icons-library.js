@@ -9,7 +9,8 @@ import {
   FaGithub,
   FaLinkedin,
   FaHackerrank,
-  FaNpm
+  FaNpm,
+  FaTerminal
 } from 'react-icons/fa';
 
 import { BsMedium } from 'react-icons/bs';
@@ -26,7 +27,8 @@ const HEADER_LINKS_ICONS = {
   linkedin: <FaLinkedin />,
   hackerrank: <FaHackerrank />,
   medium: <BsMedium />,
-  npm: <FaNpm />
+  npm: <FaNpm />,
+  terminal: <FaTerminal />
 };
 
 export {
