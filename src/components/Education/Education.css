@@ -1,0 +1,38 @@
+.education-wrapper {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.education-header-text {
+  color: var(--color-darkblue);
+  text-transform: uppercase;
+}
+
+.education-basic-info,
+.name-and-score {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.education-type {
+  font-size: 1.6rem;
+  color: var(--color-red);
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+.education-period {
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.name-and-score {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.education-score {
+  font-style: italic;
+  font-size: 1.2rem;
+}
