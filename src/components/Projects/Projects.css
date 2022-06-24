@@ -1,0 +1,31 @@
+.project-wrapper {
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.project-header-text {
+  color: var(--color-darkblue);
+  text-transform: uppercase;
+}
+
+.project-wrapper .project {
+  margin: 0.5rem 0;
+}
+
+.project-wrapper .project-name {
+  color: var(--color-red);
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+
+.project-wrapper .project-technologies {
+  font-size: 1.2rem;
+}
+
+.project-link a {
+  color: var(--color-darkblue);
+}
+
+.project-link a:hover {
+  color: var(--color-red);
+}
