@@ -1,4 +1,8 @@
-.certificates, .sub-certificates {
+.certificates {
+  padding-left: 2rem;
+}
+
+.sub-certificates {
   padding-left: 1.5rem;
 }
 
