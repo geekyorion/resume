@@ -1,0 +1,15 @@
+.achievements-wrapper ul ::marker {
+  color: var(--color-red);
+  font-size: 1.5rem;
+}
+
+.achievements {
+  padding-left: 1.8rem;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+.achievement-detail {
+  position: relative;
+  top: -0.1rem;
+}
