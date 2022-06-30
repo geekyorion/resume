@@ -47,3 +47,14 @@ export const getDateFormat = (dateString, format) => {
     .replace(month, formattedDate[month])
     .replace(date, formattedDate[date]);
 }
+
+export const calculateDiff = (startDate, endDate = new Date()) => {
+  const startDate_dateFormat = new Date(startDate);
+  const endDate_dateFormat = new Date(endDate);
+
+  const experience = (
+    (endDate_dateFormat - startDate_dateFormat) / (1000 * 60 * 60 * 24 * 30 * 12)
+  ).toFixed(1);
+
+  return `${experience} year${+experience <= 1 ? '' : 's'}`;
+}
