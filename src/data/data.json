@@ -2,7 +2,11 @@
   "header": {
     "name": "Shashank Sharma",
     "role": "Specialist Programmer at Infosys",
-    "bio": "Web developer with over 4 years of experience in React, Angular, JavaScript, etc with a flair for creating elegant solutions in the least amount of time. Recognized consistently for performance excellence and contributions to success in web development industry.",
+    "overallExperience": {
+      "startDate": "May 21, 2018",
+      "replacer": "{{experience}}"
+    },
+    "bio": "Web developer with over {{experience}} of experience in React, Angular, JavaScript, etc with a flair for creating elegant solutions in the least amount of time. Recognized consistently for performance excellence and contributions to success in web development industry.",
     "contact": [
       {
         "type": "email",
@@ -69,6 +73,13 @@
     "image": {
       "imageName": "profile.jpeg",
       "showImage": true
+    },
+    "badges": {
+      "isHidden": true,
+      "badges": [
+        { "badgeName": "IBM", "link": "", "icon": "", "isHidden": false },
+        { "badgeName": "Google", "link": "", "icon": "", "isHidden": false }
+      ]
     }
   },
   "experience": [
@@ -211,7 +222,11 @@
     }
   ],
   "others": {
-    "achievements": [],
+    "achievements": [
+      "Won the most valuable coder for the project (Kraft Heinz)",
+      "Won Infosys awards for most valuable player",
+      "Participated and qualified to the finale round of Smart India Hackathon"
+    ],
     "certificates": [
       {
         "org": "FreeCodeCamp",
