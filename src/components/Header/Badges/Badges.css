@@ -1,0 +1,10 @@
+.badges-wrapper {
+  position: absolute;
+  top: 0;
+  right: 14rem;
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+  padding-top: 1rem;
+}

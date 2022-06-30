@@ -1,0 +1,24 @@
+.languages-wrapper ul ::marker {
+  color: var(--color-red);
+  font-size: 1.5rem;
+}
+
+.languages {
+  padding-left: 1.8rem;
+  font-size: 1.4rem;
+}
+
+.language-detail {
+  position: relative;
+  top: -0.1rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.language-info {
+  font-size: 1.2rem;
+  color: var(--color-red);
+  font-style: italic;
+  padding: 0 0.5rem;
+}

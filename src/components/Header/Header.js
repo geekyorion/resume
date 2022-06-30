@@ -1,5 +1,7 @@
 import { useState } from 'react';
+import { calculateDiff } from '../../utils/dates';
 import { HEADER_CONTACT_ICONS, HEADER_LINKS_ICONS} from '../../utils/icons-library';
+import Badges from './Badges/Badges';
 import './Header.css';
 
 const Header = ({ data }) => {
@@ -8,6 +10,13 @@ const Header = ({ data }) => {
   // fetch the current profile picture name [user can save more than one]
   const headerImage = require(`../../assets/images/${headerState.image.imageName}`);
 
+  const getBio = (bio, experienceDates) => {
+    return bio.replace(
+      experienceDates.replacer,
+      calculateDiff(experienceDates.startDate)
+    );
+  }
+
   return (
     <div className="header-section">
       <div className="main-info">
@@ -15,7 +24,9 @@ const Header = ({ data }) => {
           <div className="bio-wrapper">
             <div className="name-text">{ headerState.name }</div>
             <div className="role-text">{ headerState.role }</div>
-            <div className="bio-text">{ headerState.bio }</div>
+            <div className="bio-text">
+              { getBio(headerState.bio, headerState.overallExperience) }
+            </div>
           </div>
           {headerState.image?.showImage && (
             <div className="image-wrapper">
@@ -58,6 +69,8 @@ const Header = ({ data }) => {
           </div>
         </div>
       </div>
+
+      {!headerState.badges.isHidden && <Badges data={headerState.badges?.badges} />}
     </div>
   );
 };
