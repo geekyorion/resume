@@ -1,0 +1,25 @@
+.consent-wrapper {
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+.top-hr {
+  width: calc(100% - 50%);
+  margin: 0.5rem auto;
+  border: 1px solid var(--color-red);
+  background: var(--color-red);
+}
+
+.consent-content {
+  text-align: justify;
+  margin-top: 1rem;
+}
+
+.consent-wrapper a {
+  color: var(--color-red);
+  transition-duration: .25s;
+}
+
+.consent-wrapper a:hover {
+  color: var(--color-darkblue);
+}
