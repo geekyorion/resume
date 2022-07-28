@@ -6,7 +6,7 @@ import Education from './components/Education/Education';
 import Projects from './components/Projects/Projects';
 import Extra from './components/Extra/Extra';
 
-import userData from './data/data.json';
+import userData from './data/tanushree.json';
 import './App.css';
 import Consent from './components/Consent/Consent';
 

@@ -1,0 +1,288 @@
+{
+  "header": {
+    "name": "Tanushree Sharma",
+    "role": "Senior Systems Engineer at Infosys",
+    "overallExperience": {
+      "startDate": "Nov 09, 2020",
+      "replacer": "{{experience}}"
+    },
+    "bio": "Full stack web developer with over {{experience}} of experience in Angular, .net core, JavaScript, etc. with a flair for creating elegant solutions in the least amount of time. Recognized consistently for performance excellence and contributions to success in web development industry.",
+    "contact": [
+      {
+        "type": "email",
+        "value": "tanushreesharma1998@gmail.com",
+        "isHidden": false,
+        "icon": "email"
+      }, {
+        "type": "phone",
+        "value": "",
+        "isHiddne": false,
+        "icon": "phone"
+      }, {
+        "type": "address",
+        "value": "Pune, Maharashtra",
+        "isHidden": false,
+        "icon": "address"
+      }
+    ],
+    "links": [
+      {
+        "type": "GitHub",
+        "value": "https://github.com/SharmaTanushree",
+        "isHidden": true,
+        "icon": "github"
+      }, {
+        "type": "LinkedIn",
+        "value": "https://www.linkedin.com/in/sharmatanushree1998",
+        "isHidden": false,
+        "icon": "linkedin"
+      }, {
+        "type": "HackerRank",
+        "value": "https://hackerrank.com/tanushreesharma3",
+        "isHidden": false,
+        "icon": "hackerrank"
+      }
+    ],
+    "image": {
+      "imageName": "tanu.jpg",
+      "showImage": true
+    },
+    "badges": {
+      "isHidden": true,
+      "badges": [
+        { "badgeName": "IBM", "link": "", "icon": "", "isHidden": false },
+        { "badgeName": "Google", "link": "", "icon": "", "isHidden": false }
+      ]
+    }
+  },
+  "experience": [
+    {
+      "company": "Infosys Ltd",
+      "duration": {
+        "from": "09 Nov, 2020",
+        "to": "present"
+      },
+      "location": "Pune, Maharashtra",
+      "work": [
+        {
+          "role": "Senior Systems Engineer",
+          "duration": {
+            "from": "1 Jul, 2022",
+            "to": "present"
+          },
+          "projects": [
+            {
+              "name": "Turnback Manager - Carrier Corporation",
+              "technologies": ["Angular", "Git", "ASP.NET Core"],
+              "responsibilities": [
+                "Developed a Web Application using Angular and ASP.NET Core.",
+                "Created a mapping for larger data set.",
+                "Used GitLab for Code Management."
+              ]
+            }
+          ],
+          "description": [
+            "Developed well designed, testable, efficient code by using best software development practices",
+            "Developed Web Applications and worked on both Front-end and Back-end Technologies."
+          ],
+          "showDescription": true
+        },
+        {
+          "role": "Systems Engineer",
+          "duration": {
+            "from": "09 Nov, 2020",
+            "to": "30 Jun, 2022"
+          },
+          "projects": [
+            {
+              "name": "Toyota TMH Insights",
+              "technologies": ["Angular", "ASP.NET Core", "MySQL", "Azure", "D3", "Google Charts"],
+              "responsibilities": [
+                "Developed a Dashboard Web Application using Angular and ASP.NET Core.",
+                "Worked on MYSQL in database.",
+                "Experience of working on Azure Cloud Platform.",
+                "Used Azure Devops for Code Management.",
+                "Data Visualization using D3.js and Google charting library."
+              ]
+            }, {
+              "name": "T-Rux",
+              "technologies": ["Angular", "Git"],
+              "responsibilities": [
+                "Enhanced UX by providing the ability to integrate survey data into an SPA",
+                "Reduced finish time by 50% to create a complete task"
+              ]
+            }
+          ],
+          "description": [
+            "Deployed Applications on Client Network as well as Public Cloud.",
+            "Upgraded existing web app to available newer stack as per the standards"
+          ],
+          "showDescription": true
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "type": "Graduation",
+      "degree": "B.E. (Electrical Engineering)",
+      "school": "Government College of Engineering, Aurangabad",
+      "score": "CGPA 8",
+      "isHidden": false,
+      "duration": {
+        "from": "Aug, 2017",
+        "to": "Jun, 2020"
+      },
+      "isGraduation": true
+    }, {
+      "type": "Diploma",
+      "degree": "Diploma (Electrical Engineering)",
+      "school": "Government College of Polytechnic, Nagpur",
+      "score": "91.8%",
+      "isHidden": false,
+      "duration": {
+        "from": "July, 2014",
+        "to": "Jun, 2017"
+      },
+      "isGraduation": true
+    }
+  ],
+  "projects": [],
+  "others": {
+    "achievements": [],
+    "certificates": [
+      {
+        "org": "HackerRank",
+        "name": "SQL (Basic)",
+        "valid": {
+          "from": "May, 2022",
+          "to": "Present"
+        },
+        "link": "https://www.hackerrank.com/certificates/3988d524ae93",
+        "containsSub": false,
+        "shouldShowSubs": false,
+        "subs": []
+      },
+      {
+        "org": "Infosys",
+        "name": "Angular for .NET Developer",
+        "valid": {
+          "from": "Mar, 2021",
+          "to": "Present"
+        },
+        "containsSub": false,
+        "shouldShowSubs": false,
+        "subs": []
+      },
+      {
+        "org": "Infosys",
+        "name": "Entity Framework Core",
+        "valid": {
+          "from": "Feb, 2021",
+          "to": "Present"
+        },        
+        "containsSub": false,
+        "shouldShowSubs": false,
+        "subs": []
+      },
+      {
+        "org": "Infosys",
+        "name": "Developing Services using ASP.NET Core Web API",
+        "valid": {
+          "from": "Feb, 2021",
+          "to": "Present"
+        },        
+        "containsSub": false,
+        "shouldShowSubs": false,
+        "subs": []
+      },
+      {
+        "org": "Infosys",
+        "name": "Implementing database using Microsoft SQL Server",
+        "valid": {
+          "from": "Dec, 2020",
+          "to": "Present"
+        },        
+        "containsSub": false,
+        "shouldShowSubs": false,
+        "subs": []
+      }
+    ],
+    "skills": [
+      {
+        "rating": 5,
+        "technologies": ["Angular", "JS", "CSS", "HTML", "C"],
+        "info": "Excellent"
+      },
+      {
+        "rating": 4,
+        "technologies": ["ASP.NET Core", "SQL", "Data Structures"],
+        "info": "Very Good"
+      },
+      {
+        "rating": 3,
+        "technologies": ["Git", "Azure"],
+        "info": "Good"
+      },
+      {
+        "rating": 2,
+        "technologies": ["MongoDB"],
+        "info": "Basic"
+      }
+    ],
+    "softwares": [
+      "Visual Studio",
+      "Docker",
+      "Azure Portal",
+      "SSMS",
+      "VSCode",
+      "Git",
+      "etc."
+    ],
+    "interests": ["Reading Books", "Puzzles", "Zumba"],
+    "languages": [
+      { "language": "Hindi", "rating": 5, "info": "Native or Bilingual Proficiency" },
+      { "language": "English", "rating": 4, "info": "Full Professional Proficiency" }
+    ],
+    "showOnly": {
+      "achievements": false,
+      "certificates": true,
+      "skills": true,
+      "softwares": true,
+      "interests": true,
+      "languages": true
+    }
+  },
+  "footer": {
+    "info": "",
+    "link": "",
+    "isHidden": true
+  },
+  "consent": {
+    "content": {
+      "text": [
+        "I agree to the use or processing of my personal and sensitive personal information by Accenture for the purpose of recruitment related activities in accordance with the applicable local data protection laws and {{1}}. I have the right to withdraw my consent at any point in time by sending an e-mail to {{2}} and mentioning for which processing purposes I want to withdraw my consent.",
+        "Link: {{3}}"
+      ],
+      "links": [
+        {
+          "text": "Recruitment and Hiring Privacy Statement | Accenture",
+          "link": "https://www.accenture.com/ph-en/careers/life-at-accenture/privacy-policy",
+          "target": "{{1}}"
+        },
+        {
+          "text": "dataprivacyofficer@accenture.com",
+          "link": "dataprivacyofficer@accenture.com",
+          "target": "{{2}}",
+          "mail": true
+        },
+        {
+          "text": "https://www.accenture.com/ph-en/careers/life-at-accenture/privacy-policy",
+          "link": "https://www.accenture.com/ph-en/careers/life-at-accenture/privacy-policy",
+          "target": "{{3}}"
+        }
+      ]
+    },
+    "isHidden": false
+  }
+}
