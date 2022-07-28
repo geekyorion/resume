@@ -6,12 +6,14 @@ import Education from './components/Education/Education';
 import Projects from './components/Projects/Projects';
 import Extra from './components/Extra/Extra';
 
-import userData from './data/data.json';
+// import userData from './data/data.json';
+import userData from './data/tanushree.json';
 import './App.css';
+import Consent from './components/Consent/Consent';
 
 const App = () => {
   const [state] = useState(userData);
-  const { header, experience, education, projects, others, footer } = state;
+  const { header, experience, education, projects, others, footer, consent } = state;
 
   return (
     <div className="wrapper size-A4">
@@ -30,14 +32,16 @@ const App = () => {
         </div>
         
         <div className="right-section">
-          <div className="_projects">
+          {projects && Array.isArray(projects) && projects.length > 0 && <div className="_projects">
             <Projects data={projects} />
-          </div>
+          </div>}
           <div className="_extras">
             <Extra data={others} />
           </div>
         </div>
       </div>
+
+      {!consent.isHidden && <Consent data={consent} />}
 
       {!footer.isHidden && (<div className="footer">
         { footer.info }
