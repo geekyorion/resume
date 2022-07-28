@@ -121,13 +121,13 @@
               "responsibilities": [
                 "Developed a robust react application to manage millions of entries",
                 "Provided web accessibility to enhance user experience",
-                "Created a light weight express server to perfrom internal operations"
+                "Created a light weight express server to perform internal operations"
               ]
             }
           ],
           "description": [
             "Developed well designed, testable, efficient code by using best software development practices",
-            "Manging the modularity of the application to reduce the redundancy of the code",
+            "Managed the modularity of the application to reduce the redundancy of the code",
             "Participated in internal hackathons and interview activities"
           ],
           "showDescription": true
@@ -184,7 +184,7 @@
     }, {
       "type": "Secondary",
       "degree": "",
-      "school": "Rajasthali Vidyapeeth Sen Sec School, Nawan, Rajasthan",
+      "school": "Rajasthali Vidyapeeth Sen Sec School, Nawa, Rajasthan",
       "score": "79.0%",
       "isHidden": false,
       "duration": {
@@ -383,5 +383,12 @@
     "info": "Created using ReactJS and hosted at: ",
     "link": "https://geekyorion.github.io/resume/",
     "isHidden": false
+  },
+  "consent": {
+    "isHidden": true,
+    "content": {
+      "text": [],
+      "links": []
+    }
   }
 }
