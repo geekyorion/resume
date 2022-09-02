@@ -1,29 +1,29 @@
 {
   "header": {
-    "name": "Shashank Sharma",
-    "role": "Specialist Programmer at Infosys",
+    "name": "Sphoorthy Konda",
+    "role": "Full Stack Developer",
     "overallExperience": {
       "startDate": "May 21, 2018",
       "replacer": "{{experience}}"
     },
-    "bio": "Web developer with over {{experience}} of experience in React, Angular, JavaScript, etc with a flair for creating elegant solutions in the least amount of time. Recognized consistently for performance excellence and contributions to success in web development industry.",
+    "bio": "Web developer with over 3 years of experience in React, Angular, JavaScript, etc with a flair for creating elegant solutions in the least amount of time. Recognized for performance and contributions as front end developer.",
     "contact": [
       {
         "type": "email",
-        "value": "shashank.ns67@gmail.com",
+        "value": "sphoorthyk.11@gmail.com",
         "isHidden": false,
         "icon": "email"
       }, {
         "type": "phone",
         "value": "",
-        "isHiddne": false,
+        "isHidden": false,
         "icon": "phone"
       }, {
         "type": "website",
         "value": "Resume",
-        "isHidden": false,
+        "isHidden": true,
         "icon": "website",
-        "link": "https://geekyorion.github.io/resume"
+        "link": ""
       }, {
         "type": "address",
         "value": "Hyderabad, Telangana",
@@ -33,53 +33,19 @@
     ],
     "links": [
       {
-        "type": "GitHub",
-        "value": "https://github.com/geekyorion",
-        "isHidden": false,
-        "icon": "github"
-      }, {
         "type": "LinkedIn",
-        "value": "https://linkedin.com/in/geekyorion",
+        "value": "https://linkedin.com/in/sphoorthyk",
         "isHidden": false,
         "icon": "linkedin"
-      }, {
-        "type": "HackerRank",
-        "value": "https://hackerrank.com/geekyorion",
-        "isHidden": false,
-        "icon": "hackerrank"
-      }, {
-        "type": "Medium",
-        "value": "https://geekyorion.medium.com/",
-        "isHidden": false,
-        "icon": "medium"
-      }, {
-        "type": "NPM",
-        "value": "https://npmjs.com/~geekyorion",
-        "isHidden": false,
-        "icon": "npm",
-        "iconClass": "scaled-up-icon"
-      }, {
-        "type": "NPX Card",
-        "value": "https://www.npmjs.com/package/geekyorion",
-        "isHidden": false,
-        "icon": "terminal"
-      }, {
-        "type": "Twitter",
-        "value": "https://twitter.com/geekyorion_",
-        "isHidden": true,
-        "icon": "twitter"
       }
     ],
     "image": {
-      "imageName": "profile.jpeg",
-      "showImage": true
+      "imageName": "",
+      "showImage": false
     },
     "badges": {
       "isHidden": true,
-      "badges": [
-        { "badgeName": "IBM", "link": "", "icon": "", "isHidden": false },
-        { "badgeName": "Google", "link": "", "icon": "", "isHidden": false }
-      ]
+      "badges": []
     }
   },
   "experience": [
@@ -87,71 +53,54 @@
       "company": "Infosys Ltd",
       "duration": {
         "from": "21 May, 2018",
-        "to": "present"
+        "to": "11 May, 2021"
       },
-      "location": "Hyderabad, Telagana",
+      "location": "Hyderabad, Telangana",
       "work": [
         {
-          "role": "Specialist Programmer",
+          "role": "Senior Systems Engineer",
           "duration": {
-            "from": "1 Jul, 2020",
-            "to": "present"
+            "from": "Jul, 2020",
+            "to": "May, 2021"
           },
           "projects": [
             {
-              "name": "Kraft Heinz",
-              "technologies": ["Angular", "Git", "Azure"],
+              "name": "AOS (Apple Online Store)",
+              "technologies": ["React", "ReconJS", "SCSS", "GIT"],
               "responsibilities": [
-                "Awarded as the best young developer for the web app development",
-                "Boosted user experience scores by 55% over company-wide previous best for sales team",
-                "Completed 3 web apps to manage the high sensitive sales data"
-              ]
-            },
-            {
-              "name": "T-Rux",
-              "technologies": ["Angular", "Git", "Keycloak", "ThreeJS"],
-              "responsibilities": [
-                "Enhanced UX by providing the ability to integrate survey data into an SPA",
-                "Reduced finish time by 50% to create a complete task"
-              ]
-            },
-            {
-              "name": "Airbus",
-              "technologies": ["React", "Git", "ExpressJS"],
-              "responsibilities": [
-                "Developed a robust react application to manage millions of entries",
+                "Provided efficient solutions to resolve the production bugs",
                 "Provided web accessibility to enhance user experience",
-                "Created a light weight express server to perform internal operations"
+                "Upgraded existing web components to latest internal framework version with new features",
+                "Providing optimized solutions for better performance while maintaining the cross browser compatibility"
               ]
             }
           ],
           "description": [
             "Developed well designed, testable, efficient code by using best software development practices",
             "Managed the modularity of the application to reduce the redundancy of the code",
-            "Participated in internal hackathons and interview activities"
+            "Delivered the 3 internal projects as per the user stories while working for AOS",
+            "Coordinated with Backend and DB team to provide the deliverables on time"
           ],
           "showDescription": true
         },
         {
           "role": "Systems Engineer",
           "duration": {
-            "from": "21 May, 2018",
+            "from": "17 Sept, 2018",
             "to": "30 Jun, 2020"
           },
           "projects": [
             {
-              "name": "Apple",
-              "technologies": ["React", "ReconJS", "Mustache", "SCSS", "GIT"],
+              "name": "AOS (Apple Online Store)",
+              "technologies": ["React", "ReconJS", "SCSS", "GIT"],
               "responsibilities": [
-                "Provided web accessibility to enhance user experience",
+                
                 "Upgraded existing web components to latest stack with new features",
                 "Providing optimized solutions for performance"
               ]
             }
           ],
           "description": [
-            "Enhanced and maintained web accessibility across various web apps while enhancing the user experience",
-            "Upgraded existing web app to available newer stack as per the standards"
           ],
           "showDescription": true
         }
@@ -162,227 +111,115 @@
     {
       "type": "Graduation",
       "degree": "B.Tech.",
-      "school": "Poornima Group of Institutions, Jaipur",
-      "score": "78.93% (Hons.)",
+      "school": "Sreenidhi Institute of Science & Technology, Telangana",
+      "score": "77.85%",
       "isHidden": false,
       "duration": {
-        "from": "July, 2014",
+        "from": "Oct, 2014",
         "to": "May, 2018"
       },
       "isGraduation": true
     }, {
-      "type": "Senior Secondary",
+      "type": "Intermediate",
       "degree": "",
-      "school": "Rajasthali Vidyapeeth Sen Sec School, Nawan, Rajasthan",
-      "score": "75.6%",
+      "school": "Narayana Junior College, Telangana",
+      "score": "95.4%",
       "isHidden": false,
       "duration": {
         "from": "Jun, 2012",
-        "to": "May, 2013"
+        "to": "May, 2014",
+        "range": true
       },
       "isGraduation": false
     }, {
-      "type": "Secondary",
+      "type": "School",
       "degree": "",
-      "school": "Rajasthali Vidyapeeth Sen Sec School, Nawa, Rajasthan",
-      "score": "79.0%",
+      "school": "St. Peters' Model School, Telangana",
+      "score": "8.7 CGPA",
       "isHidden": false,
       "duration": {
-        "from": "July, 2010",
-        "to": "Jun, 2011"
+        "from": "July, 2011",
+        "to": "Jun, 2012"
       },
       "isGraduation": false
     }
   ],
   "projects": [
     {
-      "name": "Dev Social Media",
-      "technologies": ["MERN", "Git", "Redux", "Heroku"],
-      "desc": "A social platform where developers can connect, post and handle their profiles",
-      "link": "https://geekyorion.github.io/devSocialMedia/",
-      "isHidden": false
-    }, {
-      "name": "Gradient Code",
-      "technologies": ["React", "CSS3", "HTML5 Canvas"],
-      "desc": "A web app to create, save, edit and download the gradients",
-      "link": "https://geekyorion.github.io/gradient_code/",
-      "isHidden": false
-    }, {
-      "name": "Libraries",
-      "technologies": ["JavaScript", "React", "Chalk", "Boxen"],
-      "desc": "Published libraries on NPM",
-      "link": "https://npmjs.com/~geekyorion/",
-      "isHidden": true
-    }, {
-      "name": "FreeCodeCamp",
-      "technologies": ["React", "JavaScript", "CSS3", "HTML5 Canvas"],
-      "desc": "10 small projects based on certification",
-      "link": "https://geekyorion.github.io/freecodecamp/",
-      "isHidden": false
+      "name": "Anti-jam Transmitter Module (DRDO, Hyderabad)",
+      "technologies": ["Matlab"],
+      "desc": "Design and development of an Anti-Jam transmitter module under the supervision of DRDO scientist-E",
+      "link": "",
+      "isHidden": false,
+      "duration": {
+        "from": "Dec, 2017",
+        "to": "Apr, 2018"
+      }
+    },
+    {
+      "name": "Efficient Image Retrieval (BSNL, Hyderabad)",
+      "technologies": ["Matlab"],
+      "desc": "Efficient image retrieval using color edge detection and discrete wavelet transform",
+      "link": "",
+      "isHidden": false,
+      "duration": {
+        "from": "May, 2017",
+        "to": "Jun, 2017"
+      }
     }
   ],
   "others": {
     "achievements": [
-      "Won the most valuable coder for the project (Kraft Heinz)",
-      "Won Infosys awards for most valuable player",
-      "Participated and qualified to the finale round of Smart India Hackathon"
+      "Received an InstaAward at Infosys for the commitment and hardwork put in while working on project specific deliverables",
+      "Received certificate of appreciation for the contributions made to the education support chapter of 'Make a difference' [2015-2018]",
+      "Received certificate of participation as the delegate of Singapore in the UNODC of IIIT, Hyderabad MUN'17",
+      "Received certificate of appreciation for working as a coordinator for SREE VISION'16 held at Sreenidhi Institute of Science & Technology"
     ],
-    "certificates": [
-      {
-        "org": "FreeCodeCamp",
-        "name": "Responsive Web Design, DSA using JS, FE libraries",
-        "valid": {
-          "from": "Feb 28, 2021",
-          "to": "Present"
-        },
-        "link": "https://freecodecamp.org/geekyorion",
-        "containsSub": true,
-        "shouldShowSubs": false,
-        "subs": [
-          {
-            "name": "Front End Development Libraries",
-            "link": "https://www.freecodecamp.org/certification/geekyorion/front-end-development-libraries",
-            "issuedOn": "July 11, 2021"
-          },
-          {
-            "name": "JavaScript Algorithms and Data Structures",
-            "link": "https://www.freecodecamp.org/certification/geekyorion/javascript-algorithms-and-data-structures",
-            "issuedOn": "March 20, 2021"
-          },
-          {
-            "name": "Responsive Web Design",
-            "link": "https://freecodecamp.org/certification/geekyorion/responsive-web-design",
-            "issuedOn": "Feb 28, 2021"
-          }
-        ]
-      },
-      {
-        "org": "HackerRank",
-        "name": "JS, React, Angular, Node, Python, etc.",
-        "valid": {
-          "from": "Sep 10, 2020",
-          "to": "Present",
-          "showCurrent": true
-        },
-        "link": "https://hackerrank.com/geekyorion",
-        "containsSub": true,
-        "shouldShowSubs": false,
-        "subs": [
-          {
-            "name": "Angular (Intermediate)",
-            "link": "https://www.hackerrank.com/certificates/e9ad142919e4",
-            "issuedOn": "Nov 14, 2021"
-          },
-          {
-            "name": "Angular (Basic)",
-            "link": "https://www.hackerrank.com/certificates/899b61d8697d",
-            "issuedOn": "Nov 14, 2021"
-          },
-          {
-            "name": "Node (Basic)",
-            "link": "https://www.hackerrank.com/certificates/3e1d26024edd",
-            "issuedOn": "Nov 14, 2021"
-          },
-          {
-            "name": "Rest API (Intermediate)",
-            "link": "https://www.hackerrank.com/certificates/ecb0c3c46444",
-            "issuedOn": "Nov 02, 2021"
-          },
-          {
-            "name": "React (Basic)",
-            "link": "https://www.hackerrank.com/certificates/b5c15060f567",
-            "issuedOn": "Oct 08, 2021"
-          },
-          {
-            "name": "JavaScript (Intermediate)",
-            "link": "https://www.hackerrank.com/certificates/44f6fbed0bcd",
-            "issuedOn": "Oct 08, 2021"
-          },
-          {
-            "name": "JavaScript (Basic)",
-            "link": "https://www.hackerrank.com/certificates/dca875bb6044",
-            "issuedOn": "Oct 08, 2021"
-          },
-          {
-            "name": "Problem Solving (Basic)",
-            "link": "https://www.hackerrank.com/certificates/69d80d724f79",
-            "issuedOn": "Oct 08, 2021"
-          },
-          {
-            "name": "CSS",
-            "link": "https://www.hackerrank.com/certificates/118b639cb589",
-            "issuedOn": "Oct 08, 2021"
-          },
-          {
-            "name": "Python (Intermediate)",
-            "link": "https://www.hackerrank.com/certificates/29419a5ae278",
-            "issuedOn": "Sep 11, 2020"
-          },
-          {
-            "name": "Python (Basic)",
-            "link": "https://www.hackerrank.com/certificates/cb508b587b64",
-            "issuedOn": "Sep 10, 2020"
-          }
-        ]
-      },
-      {
-        "org": "Microsoft",
-        "name": "Microsoft 70-480: Programming in HTML5 with JavaScript and CSS3",
-        "valid": {
-          "from": "Jun 04, 2019",
-          "to": "Present"
-        },
-        "link": null,
-        "containsSub": false,
-        "shouldShowSubs": false,
-        "subs": []
-      }
-    ],
+    "certificates": [],
     "skills": [
       {
-        "rating": 5,
-        "technologies": ["React", "JS", "CSS", "HTML"],
-        "info": "Excellent"
+        "heading": "Front-end Development",
+        "skills": ["React", "Angular", "JavaScript", "CSS3", "HTML5", "Bootstrap"]
       },
       {
-        "rating": 4,
-        "technologies": ["Angular", "Express", "Git"],
-        "info": "Very Good"
+        "heading": "Back-end Development",
+        "skills": ["Express", "NodeJS"]
       },
       {
-        "rating": 3,
-        "technologies": ["NodeJS", "MongoDB", "SQL", "ThreeJS"],
-        "info": "Good"
+        "heading": "Database",
+        "skills": ["Oracle SQL", "MongoDB"]
+      },
+      {
+        "heading": "Tools & Languages",
+        "skills": ["Python", "C", "Git", "Matlab", "BitBucket"]
       }
     ],
     "softwares": [
-      "Figma",
       "VSCode",
       "Git",
-      "Jira",
-      "Bootstrap Studio",
-      "Ubuntu",
-      "etc."
+      "Bitbucket",
+      "MacOS",
+      "Windows"
     ],
-    "interests": ["Chess", "Sudoku", "Listening to LoFi Music"],
+    "interests": ["Social service", "Practicing Yoga", "Reading Books", "Listening to Music"],
     "languages": [
-      { "language": "Hindi", "rating": 5, "info": "Native or Bilingual Proficiency" },
-      { "language": "English", "rating": 4, "info": "Full Professional Proficiency" },
-      { "language": "Spanish", "rating": 1, "info": "Elementary Proficiency" }
+      { "language": "Telugu", "rating": 5, "info": "Native or Bilingual Proficiency" },
+      { "language": "Hindi", "rating": 5, "info": "Bilingual Proficiency" },
+      { "language": "English", "rating": 4, "info": "Full Professional Proficiency" }
     ],
     "showOnly": {
-      "achievements": false,
-      "certificates": true,
+      "achievements": true,
+      "certificates": false,
       "skills": true,
       "softwares": true,
       "interests": true,
-      "languages": false
+      "languages": true
     }
   },
   "footer": {
-    "info": "Created using ReactJS and hosted at: ",
-    "link": "https://geekyorion.github.io/resume/",
-    "isHidden": false
+    "info": "",
+    "link": "",
+    "isHidden": true
   },
   "consent": {
     "isHidden": true,

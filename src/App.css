@@ -21,10 +21,12 @@
 .sections {
   display: flex;
   justify-content: space-between;
+  gap: 10px;
 }
 
 .left-section {
   flex: 3;
+  max-width: 55%;
 }
 
 .right-section {

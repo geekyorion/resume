@@ -6,7 +6,7 @@ const Interests = ({ data }) => {
   
   return (
     <div className="interests-wrapper">
-      <h3 className="sub-comp-header">Interests</h3>
+      <h3 className="sub-comp-header">Interests / Hobbies</h3>
       <div className="interests">
         {interestsState.join(', ')}
       </div>
