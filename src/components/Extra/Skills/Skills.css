@@ -26,3 +26,13 @@
   height: 100%;
   border-radius: 1rem;
 }
+
+.skill-heading {
+  font-weight: 600;
+  padding-right: 0.4rem;
+}
+
+.skills-arr {
+  color: var(--color-red);
+  font-size: 1.2rem;
+}
