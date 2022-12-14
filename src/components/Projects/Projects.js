@@ -12,14 +12,14 @@ const Projects = ({ data }) => {
         <div className="project" key={`project-${index}`}>
           <div className="project-name">
             {project.name}
-            <span className="project-duration">
+            {project.duration && (<span className="project-duration">
               {getDateFormat(project.duration.from, 'MMM, YYYY')}
               {' - '}
               {project.duration.to === 'present'
                 ? 'Present'
                 : getDateFormat(project.duration.to, 'MMM, YYYY')
               }
-            </span>
+            </span>)}
           </div>
 
           <div className="project-desc">{project.desc}</div>
