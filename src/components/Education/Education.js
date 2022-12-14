@@ -23,6 +23,15 @@ const Education = ({ data }) => {
                       : getDateFormat(education.duration.to, 'YYYY')
                     }
                   </>
+                ) : education.duration.range ? (
+                  <>
+                    {getDateFormat(education.duration.from, 'YYYY')}
+                    {' - '}
+                    {education.duration.to === 'present'
+                      ? 'Present'
+                      : getDateFormat(education.duration.to, 'YYYY')
+                    }
+                  </>
                 ) : getDateFormat(education.duration.to, 'YYYY')
               }
             </div>
