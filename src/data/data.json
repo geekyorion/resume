@@ -16,7 +16,7 @@
       }, {
         "type": "phone",
         "value": "",
-        "isHidden": false,
+        "isHidden": true,
         "icon": "phone"
       }, {
         "type": "website",
@@ -99,6 +99,14 @@
           },
           "projects": [
             {
+              "name": "Allstate (CEME)",
+              "technologies": ["React", "Git", "version1", "MFE", "MongoDB", "Jenkins"],
+              "responsibilities": [
+                "Eureka award for developing the standalone webapp to generate the auth token",
+                "Created dynamic UI to handle data directly from backend (logicless UI)"
+              ]
+            },
+            {
               "name": "Kraft Heinz",
               "technologies": ["Angular", "Git", "Azure"],
               "responsibilities": [
@@ -175,7 +183,7 @@
       "degree": "",
       "school": "Rajasthali Vidyapeeth Sen Sec School, Nawa, Rajasthan",
       "score": "75.6%",
-      "isHidden": false,
+      "isHidden": true,
       "duration": {
         "from": "Jun, 2012",
         "to": "May, 2013"
@@ -186,7 +194,7 @@
       "degree": "",
       "school": "Rajasthali Vidyapeeth Sen Sec School, Nawa, Rajasthan",
       "score": "79.0%",
-      "isHidden": false,
+      "isHidden": true,
       "duration": {
         "from": "July, 2010",
         "to": "Jun, 2011"
@@ -341,17 +349,17 @@
     "skills": [
       {
         "rating": 5,
-        "technologies": ["React", "JS", "CSS", "HTML"],
+        "technologies": ["React", "JS", "Angular", "CSS", "HTML"],
         "info": "Excellent"
       },
       {
         "rating": 4,
-        "technologies": ["Angular", "Express", "Git"],
+        "technologies": ["Express", "Git", "version1", "ThreeJS"],
         "info": "Very Good"
       },
       {
         "rating": 3,
-        "technologies": ["NodeJS", "MongoDB", "SQL", "ThreeJS"],
+        "technologies": ["NodeJS", "MongoDB", "SQL", "Jenkins"],
         "info": "Good"
       }
     ],
@@ -364,7 +372,7 @@
       "Ubuntu",
       "etc."
     ],
-    "interests": ["Chess", "Sudoku", "Listening to LoFi Music"],
+    "interests": ["Chess (Aiming for FIDE Rated player)", "Sudoku", "LoFi Music"],
     "languages": [
       { "language": "Hindi", "rating": 5, "info": "Native or Bilingual Proficiency" },
       { "language": "English", "rating": 4, "info": "Full Professional Proficiency" },
