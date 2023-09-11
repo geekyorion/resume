@@ -25,12 +25,12 @@ const App = () => {
           <div className="_experience">
             <Experience data={experience} />
           </div>
-          <div className="_education">
-            <Education data={education} />
-          </div>
         </div>
         
         <div className="right-section">
+          <div className="_education">
+            <Education data={education} />
+          </div>
           {projects && Array.isArray(projects) && projects.length > 0 && <div className="_projects">
             <Projects data={projects} />
           </div>}
