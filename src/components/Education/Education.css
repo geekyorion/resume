@@ -28,6 +28,7 @@
 }
 
 .name-and-score {
+  white-space: nowrap;
   font-size: 1.4rem;
   font-weight: 500;
 }

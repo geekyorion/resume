@@ -1,7 +1,7 @@
 {
   "header": {
     "name": "Tanushree Sharma",
-    "role": "Senior Systems Engineer at Infosys",
+    "role": "Systems Engineer at TCS",
     "overallExperience": {
       "startDate": "Nov 09, 2020",
       "replacer": "{{experience}}"
@@ -57,10 +57,43 @@
   },
   "experience": [
     {
+      "company": "Tata Consultancy Services Ltd",
+      "duration": {
+        "from": "09 Feb, 2023",
+        "to": "present"
+      },
+      "location": "Pune, Maharashtra",
+      "work": [
+        {
+          "role": "System Engineer",
+          "duration": {
+            "from": "8 Feb, 2023",
+            "to": "present"
+          },
+          "projects": [
+            {
+              "name": "Bridgestone",
+              "technologies": ["Angular", "NgRX", "DevOps", "Git", "ASP.NET"],
+              "responsibilities": [
+                "Developing and maintaining .NET applications using Angular and .NET",
+                "Writing clean, maintainable, and efficient code",
+                "Debugging and resolving software defects and issues"
+              ]
+            }
+          ],
+          "description": [            
+            "Designing and implementing UI for web using UI and ASP.Net Core",
+            "Participating in agile development processes, such as sprint planning and daily stand-ups"
+          ],
+          "showDescription": true
+        }
+      ]
+    },
+    {
       "company": "Infosys Ltd",
       "duration": {
         "from": "09 Nov, 2020",
-        "to": "present"
+        "to": "6 Feb, 2023"
       },
       "location": "Pune, Maharashtra",
       "work": [
@@ -283,6 +316,6 @@
         }
       ]
     },
-    "isHidden": false
+    "isHidden": true
   }
 }
