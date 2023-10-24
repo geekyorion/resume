@@ -68,6 +68,11 @@
         "value": "https://twitter.com/geekyorion_",
         "isHidden": true,
         "icon": "twitter"
+      }, {
+        "type": "Leetcode",
+        "value": "https://twitter.com/geekyorion_",
+        "isHidden": true,
+        "icon": "leetcode"
       }
     ],
     "image": {
