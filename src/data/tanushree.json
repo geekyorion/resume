@@ -41,6 +41,11 @@
         "value": "https://hackerrank.com/tanushreesharma3",
         "isHidden": false,
         "icon": "hackerrank"
+      }, {
+        "type": "Leetcode",
+        "value": "https://leetcode.com/SharmaTanushree",
+        "isHidden": false,
+        "icon": "leetcode"
       }
     ],
     "image": {
@@ -254,7 +259,7 @@
       },
       {
         "rating": 3,
-        "technologies": ["Git", "Azure"],
+        "technologies": ["React", "Git", "Azure"],
         "info": "Good"
       },
       {

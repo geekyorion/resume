@@ -6,6 +6,7 @@
 .education-header-text {
   color: var(--color-darkblue);
   text-transform: uppercase;
+  font-size: 1.8rem;
 }
 
 .education-basic-info,
