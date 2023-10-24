@@ -22,6 +22,10 @@ import {
   CgWebsite
 } from 'react-icons/cg';
 
+import {
+  SiLeetcode
+} from 'react-icons/si';
+
 const HEADER_CONTACT_ICONS = {
   email: <MdEmail />,
   phone: <MdPhone />,
@@ -36,7 +40,8 @@ const HEADER_LINKS_ICONS = {
   medium: <BsMedium />,
   npm: <FaNpm />,
   terminal: <FaTerminal />,
-  twitter: <BsTwitter />
+  twitter: <BsTwitter />,
+  leetcode: <SiLeetcode />
 };
 
 const PROJECT_ICONS = {
