@@ -16,7 +16,7 @@
       }, {
         "type": "phone",
         "value": "+91-96022 63829",
-        "isHiddne": false,
+        "isHidden": true,
         "icon": "phone"
       }, {
         "type": "website",
@@ -68,6 +68,11 @@
         "value": "https://twitter.com/geekyorion_",
         "isHidden": true,
         "icon": "twitter"
+      }, {
+        "type": "Leetcode",
+        "value": "https://twitter.com/geekyorion_",
+        "isHidden": true,
+        "icon": "leetcode"
       }
     ],
     "image": {
@@ -89,7 +94,7 @@
         "from": "21 May, 2018",
         "to": "present"
       },
-      "location": "Hyderabad, Telagana",
+      "location": "Hyderabad, Telangana",
       "work": [
         {
           "role": "Specialist Programmer",
@@ -98,6 +103,14 @@
             "to": "present"
           },
           "projects": [
+            {
+              "name": "Allstate (CEME)",
+              "technologies": ["React", "Git", "version1", "MFE", "MongoDB", "Jenkins"],
+              "responsibilities": [
+                "Eureka award for developing the standalone webapp to generate the auth token",
+                "Created dynamic UI to handle data directly from backend (logicless UI)"
+              ]
+            },
             {
               "name": "Kraft Heinz",
               "technologies": ["Angular", "Git", "Azure"],
@@ -121,13 +134,13 @@
               "responsibilities": [
                 "Developed a robust react application to manage millions of entries",
                 "Provided web accessibility to enhance user experience",
-                "Created a light weight express server to perfrom internal operations"
+                "Created a light weight express server to perform internal operations"
               ]
             }
           ],
           "description": [
             "Developed well designed, testable, efficient code by using best software development practices",
-            "Manging the modularity of the application to reduce the redundancy of the code",
+            "Managed the modularity of the application to reduce the redundancy of the code",
             "Participated in internal hackathons and interview activities"
           ],
           "showDescription": true
@@ -173,9 +186,9 @@
     }, {
       "type": "Senior Secondary",
       "degree": "",
-      "school": "Rajasthali Vidyapeeth Sen Sec School, Nawan, Rajasthan",
+      "school": "Rajasthali Vidyapeeth Sen Sec School, Nawa, Rajasthan",
       "score": "75.6%",
-      "isHidden": false,
+      "isHidden": true,
       "duration": {
         "from": "Jun, 2012",
         "to": "May, 2013"
@@ -184,9 +197,9 @@
     }, {
       "type": "Secondary",
       "degree": "",
-      "school": "Rajasthali Vidyapeeth Sen Sec School, Nawan, Rajasthan",
+      "school": "Rajasthali Vidyapeeth Sen Sec School, Nawa, Rajasthan",
       "score": "79.0%",
-      "isHidden": false,
+      "isHidden": true,
       "duration": {
         "from": "July, 2010",
         "to": "Jun, 2011"
@@ -341,17 +354,17 @@
     "skills": [
       {
         "rating": 5,
-        "technologies": ["React", "JS", "CSS", "HTML"],
+        "technologies": ["React", "JS", "Angular", "CSS", "HTML"],
         "info": "Excellent"
       },
       {
         "rating": 4,
-        "technologies": ["Angular", "Express", "Git"],
+        "technologies": ["Express", "Git", "version1", "ThreeJS"],
         "info": "Very Good"
       },
       {
         "rating": 3,
-        "technologies": ["NodeJS", "MongoDB", "SQL", "ThreeJS"],
+        "technologies": ["NodeJS", "MongoDB", "SQL", "Jenkins"],
         "info": "Good"
       }
     ],
@@ -364,7 +377,7 @@
       "Ubuntu",
       "etc."
     ],
-    "interests": ["Chess", "Sudoku", "Listening to LoFi Music"],
+    "interests": ["Chess (Aiming for FIDE Rated player)", "Sudoku", "LoFi Music"],
     "languages": [
       { "language": "Hindi", "rating": 5, "info": "Native or Bilingual Proficiency" },
       { "language": "English", "rating": 4, "info": "Full Professional Proficiency" },
@@ -383,5 +396,12 @@
     "info": "Created using ReactJS and hosted at: ",
     "link": "https://geekyorion.github.io/resume/",
     "isHidden": false
+  },
+  "consent": {
+    "isHidden": true,
+    "content": {
+      "text": [],
+      "links": []
+    }
   }
 }

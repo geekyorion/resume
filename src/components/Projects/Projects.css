@@ -29,3 +29,12 @@
 .project-link a:hover {
   color: var(--color-red);
 }
+
+.project-duration {
+  font-size: 1.2rem;
+  color: var(--color-darkblue);
+  float: right;
+  font-style: italic;
+  font-weight: 400;
+  padding-top: 0.3rem;
+}
