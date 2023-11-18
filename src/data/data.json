@@ -6,7 +6,7 @@
       "startDate": "May 21, 2018",
       "replacer": "{{experience}}"
     },
-    "bio": "Web developer with over 3 years of experience in React, Angular, JavaScript, etc with a flair for creating elegant solutions in the least amount of time. Recognized for performance and contributions as front end developer.",
+    "bio": "Web developer with over 3 years of experience in front-end development, demonstrating a flair for creating elegant solutions in the least amount of time.",
     "contact": [
       {
         "type": "email",
@@ -68,18 +68,16 @@
               "name": "AOS (Apple Online Store)",
               "technologies": ["React", "ReconJS", "SCSS", "GIT"],
               "responsibilities": [
-                "Provided efficient solutions to resolve the production bugs",
-                "Provided web accessibility to enhance user experience",
-                "Upgraded existing web components to latest internal framework version with new features",
-                "Providing optimized solutions for better performance while maintaining the cross browser compatibility"
+                "Developed well designed, testable, efficient code by using best software development practices",
+                "Redesigned client's customer interaction interface to improve feature accessibility by developing standardized platform across all devices",
+                "Provided optimized solutions to resolve the production bugs for better performance while maintaining the cross browser compatibility",
+                "Managed the modularity of the application to remove the redundancy of the code",
+                "Delivered 3 internal projects as per the client requirement",
+                "Coordinated with backend and database management teams to provide the deliverables on time"
               ]
             }
           ],
           "description": [
-            "Developed well designed, testable, efficient code by using best software development practices",
-            "Managed the modularity of the application to reduce the redundancy of the code",
-            "Delivered the 3 internal projects as per the user stories while working for AOS",
-            "Coordinated with Backend and DB team to provide the deliverables on time"
           ],
           "showDescription": true
         },
@@ -94,9 +92,30 @@
               "name": "AOS (Apple Online Store)",
               "technologies": ["React", "ReconJS", "SCSS", "GIT"],
               "responsibilities": [
-                
-                "Upgraded existing web components to latest stack with new features",
-                "Providing optimized solutions for performance"
+                "Enhanced and maintained web accessibility of client's website across various web applications and devices while improving the user experience",
+                "Updated existing web application according to latest industry standards",
+                "Provided optimized solutions for refined performance"
+              ]
+            }
+          ],
+          "description": [
+          ],
+          "showDescription": true
+        },
+        {
+          "role": "Systems Engineer Trainee",
+          "duration": {
+            "from": "21 May, 2018",
+            "to": "16 Sept, 2018"
+          },
+          "projects": [
+            {
+              "name": "Capstone Project",
+              "technologies": ["HTML5", "CSS3", "JavaScript", "MERN stack"],
+              "responsibilities": [
+                "Developed an UI of E-commerce webapp using React and React Bootstrap",
+                "Developed a NodeJS server developed using ExpressJS and integrated it with MongoDB",
+                "Followed Agile Scrum Methodology"
               ]
             }
           ],
@@ -150,7 +169,7 @@
       "technologies": ["Matlab"],
       "desc": "Design and development of an Anti-Jam transmitter module under the supervision of DRDO scientist-E",
       "link": "",
-      "isHidden": false,
+      "isHidden": true,
       "duration": {
         "from": "Dec, 2017",
         "to": "Apr, 2018"
@@ -161,7 +180,7 @@
       "technologies": ["Matlab"],
       "desc": "Efficient image retrieval using color edge detection and discrete wavelet transform",
       "link": "",
-      "isHidden": false,
+      "isHidden": true,
       "duration": {
         "from": "May, 2017",
         "to": "Jun, 2017"
@@ -170,16 +189,37 @@
   ],
   "others": {
     "achievements": [
-      "Received an InstaAward at Infosys for the commitment and hardwork put in while working on project specific deliverables",
-      "Received certificate of appreciation for the contributions made to the education support chapter of 'Make a difference' [2015-2018]",
-      "Received certificate of participation as the delegate of Singapore in the UNODC of IIIT, Hyderabad MUN'17",
-      "Received certificate of appreciation for working as a coordinator for SREE VISION'16 held at Sreenidhi Institute of Science & Technology"
+      "Received an InstaAward at Infosys for the commitment and hard work put into working on project-specific deliverables",
+      "Received a certificate of appreciation for the contributions made to the education support chapter of 'Make a Difference' [2015-2018]",
+      "Received a certificate of participation as the delegate of Singapore in the UNODC at IIIT, Hyderabad MUN'17",
+      "Received a certificate of appreciation for working as a coordinator for SREE VISION'16, held at Sreenidhi Institute of Science & Technology"
     ],
-    "certificates": [],
+    "certificates": [
+      {
+        "org": "",
+        "name": "Infosys certified MERN stack developer",
+        "link": "",
+        "containsSub": false,
+        "shouldShowSubs": false,
+        "subs": []
+      },
+      {
+        "org": "",
+        "name": "Infosys certified Web Developer",
+        "link": "",
+        "containsSub": true,
+        "shouldShowSubs": true,
+        "subs": [
+          { "name": "HTML5" },
+          { "name": "CSS3" },
+          { "name": "JavaScript (ES6)" }
+        ]
+      }
+    ],
     "skills": [
       {
         "heading": "Front-end Development",
-        "skills": ["React", "Angular", "JavaScript", "CSS3", "HTML5", "Bootstrap"]
+        "skills": ["React", "JavaScript", "CSS3", "HTML5", "Bootstrap"]
       },
       {
         "heading": "Back-end Development",
@@ -191,7 +231,11 @@
       },
       {
         "heading": "Tools & Languages",
-        "skills": ["Python", "C", "Git", "Matlab", "BitBucket"]
+        "skills": ["Python", "C", "Git", "BitBucket"]
+      },
+      {
+        "heading": "Testing Frameworks",
+        "skills": ["Jasmine"]
       }
     ],
     "softwares": [
@@ -201,7 +245,7 @@
       "MacOS",
       "Windows"
     ],
-    "interests": ["Social service", "Practicing Yoga", "Reading Books", "Listening to Music"],
+    "interests": ["Reading Books", "Listening to Music", "Engaging in Community Service"],
     "languages": [
       { "language": "Telugu", "rating": 5, "info": "Native or Bilingual Proficiency" },
       { "language": "Hindi", "rating": 5, "info": "Bilingual Proficiency" },
@@ -209,7 +253,7 @@
     ],
     "showOnly": {
       "achievements": true,
-      "certificates": false,
+      "certificates": true,
       "skills": true,
       "softwares": true,
       "interests": true,

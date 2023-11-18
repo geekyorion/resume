@@ -7,7 +7,7 @@ const Skills = ({ data }) => {
   return (
     <div className="skills-wrapper">
       <h3 className="sub-comp-header">Technical Skills</h3>
-      <div>
+      <div className="skill-mapper">
         {skills.map(skill => (
           <div className="skill-wrapper">
             <span className="skill-heading">{skill.heading}:</span>

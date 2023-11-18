@@ -36,3 +36,9 @@
   color: var(--color-red);
   font-size: 1.2rem;
 }
+
+.skill-mapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
