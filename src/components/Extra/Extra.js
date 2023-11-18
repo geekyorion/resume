@@ -14,9 +14,9 @@ const Extra = ({ data }) => {
   return (
     <div className="extras-wrapper">
       {!isEmpty(skills) && showOnly['skills'] && <Skills data={skills} />}
+      {!isEmpty(softwares) && showOnly['softwares'] && <Tools data={softwares} />}
       {!isEmpty(certificates) && showOnly['certificates'] && <Certifications data={certificates} />}
       {!isEmpty(achievements) && showOnly['achievements'] && <Achievements data={achievements} />}
-      {!isEmpty(softwares) && showOnly['softwares'] && <Tools data={softwares} />}
       {!isEmpty(interests) && showOnly['interests'] && <Interests data={interests} />}
       {!isEmpty(languages) && showOnly['languages'] && <Languages data={languages} />}
     </div>
