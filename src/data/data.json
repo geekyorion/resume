@@ -3,7 +3,7 @@
     "name": "Shashank Sharma",
     "role": "Specialist Programmer at Infosys",
     "overallExperience": {
-      "startDate": "May 21, 2018",
+      "startDate": "Oct 01, 2018",
       "replacer": "{{experience}}"
     },
     "bio": "Web developer with over {{experience}} of experience in React, Angular, JavaScript, etc with a flair for creating elegant solutions in the least amount of time. Recognized consistently for performance excellence and contributions to success in web development industry.",
@@ -148,7 +148,7 @@
         {
           "role": "Systems Engineer",
           "duration": {
-            "from": "21 May, 2018",
+            "from": "01 Oct, 2018",
             "to": "30 Jun, 2020"
           },
           "projects": [
