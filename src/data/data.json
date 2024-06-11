@@ -6,7 +6,7 @@
       "startDate": "Oct 01, 2018",
       "replacer": "{{experience}}"
     },
-    "bio": "Web developer with over {{experience}} of experience in React, Angular, JavaScript, etc with a flair for creating elegant solutions in the least amount of time. Recognized consistently for performance excellence and contributions to success in web development industry.",
+    "bio": "Web developer with over {{experience}} of experience in React, Angular, MFE, JavaScript, etc. with a flair for creating elegant solutions in the least amount of time. Recognized consistently for performance excellence and contributions to success in web development industry.",
     "isBioVisible": true,
     "contact": [
       {
@@ -109,8 +109,8 @@
               "technologies": ["Angular", "MFE (Single SPA)", "Git", "OpenShift", "Jenkins", "SonarQube", "Datadog"],
               "responsibilities": [
                 "Migrated monolithic frontend application to Micro Frontend using Single SPA and Module Federation",
-                "Decreaed the overall build time by 60%",
-                "Created in broswer module for robust communication in between MFEs",
+                "Decreased the overall build time by 60%",
+                "Created in browser module for robust communication in between MFEs",
                 "Internal ng-library to provide modularity to reuse the code"
               ]
             },
