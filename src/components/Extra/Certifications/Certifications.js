@@ -7,7 +7,7 @@ const Certifications = ({ data }) => {
   
   return (
     <div className="certification-wrapper">
-      <h3 className="sub-comp-header">Certifications</h3>
+      <h3 className="section-heading sub-comp-header">Certifications</h3>
       <ul className="certificates">
         {certState.map((certificate, index) => (
           <li className="certificate" key={`cert-${index}`}>

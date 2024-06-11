@@ -7,6 +7,7 @@
       "replacer": "{{experience}}"
     },
     "bio": "Web developer with over {{experience}} of experience in React, Angular, JavaScript, etc with a flair for creating elegant solutions in the least amount of time. Recognized consistently for performance excellence and contributions to success in web development industry.",
+    "isBioVisible": true,
     "contact": [
       {
         "type": "email",
@@ -104,8 +105,18 @@
           },
           "projects": [
             {
+              "name": "Citizens Bank",
+              "technologies": ["Angular", "MFE (Single SPA)", "Git", "OpenShift", "Jenkins", "SonarQube", "Datadog"],
+              "responsibilities": [
+                "Migrated monolithic frontend application to Micro Frontend using Single SPA and Module Federation",
+                "Decreaed the overall build time by 60%",
+                "Created in broswer module for robust communication in between MFEs",
+                "Internal ng-library to provide modularity to reuse the code"
+              ]
+            },
+            {
               "name": "Allstate (CEME)",
-              "technologies": ["React", "Git", "version1", "MFE", "MongoDB", "Jenkins"],
+              "technologies": ["React", "Git", "version1", "MFE", "MongoDB", "Jenkins", "Datadog"],
               "responsibilities": [
                 "Eureka award for developing the standalone webapp to generate the auth token",
                 "Created dynamic UI to handle data directly from backend (logicless UI)"
@@ -118,14 +129,6 @@
                 "Awarded as the best young developer for the web app development",
                 "Boosted user experience scores by 55% over company-wide previous best for sales team",
                 "Completed 3 web apps to manage the high sensitive sales data"
-              ]
-            },
-            {
-              "name": "T-Rux",
-              "technologies": ["Angular", "Git", "Keycloak", "ThreeJS"],
-              "responsibilities": [
-                "Enhanced UX by providing the ability to integrate survey data into an SPA",
-                "Reduced finish time by 50% to create a complete task"
               ]
             },
             {
@@ -388,13 +391,13 @@
       "certificates": true,
       "skills": true,
       "softwares": true,
-      "interests": true,
+      "interests": false,
       "languages": false
     }
   },
   "footer": {
-    "info": "Created using ReactJS and hosted at: ",
-    "link": "https://geekyorion.github.io/resume/",
+    "info": "Created using ReactJS, Please visit: ",
+    "link": "https://geekyorion.com",
     "isHidden": false
   },
   "consent": {

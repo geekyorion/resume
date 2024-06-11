@@ -7,7 +7,7 @@ const Education = ({ data }) => {
 
   return (
     <div className="education-wrapper">
-      <h3 className="education-header-text">Education</h3>
+      <h3 className="section-heading education-header-text">Education</h3>
       {educationState.filter(edu => !edu.isHidden).map((education, index) => (
         <div className="education" key={`edu-${index}`}>
           <div className="education-basic-info">

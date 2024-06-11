@@ -6,7 +6,7 @@ const Tools = ({ data }) => {
   
   return (
     <div className="tool-wrapper">
-      <h3 className="sub-comp-header">Software &amp; Tools</h3>
+      <h3 className="section-heading sub-comp-header">Software &amp; Tools</h3>
       <div className="tools">
         {toolState.join(', ')}
       </div>

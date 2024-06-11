@@ -6,7 +6,7 @@ const Languages = ({ data }) => {
   
   return (
     <div className="languages-wrapper">
-      <h3 className="sub-comp-header">Languages</h3>
+      <h3 className="section-heading sub-comp-header">Languages</h3>
       <ul className="languages">
         {languagesData.map((language, index) => (
           <li className="language" key={`ach-${index}`}>

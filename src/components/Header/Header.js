@@ -26,9 +26,9 @@ const Header = ({ data }) => {
           <div className="bio-wrapper">
             <div className="name-text">{ headerState.name }</div>
             <div className="role-text">{ headerState.role }</div>
-            <div className="bio-text">
+            {headerState.isBioVisible && (<div className="bio-text">
               { getBio(headerState.bio, headerState.overallExperience) }
-            </div>
+            </div>)}
           </div>
           {headerState.image?.showImage && (
             <div className="image-wrapper">

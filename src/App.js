@@ -25,9 +25,6 @@ const App = () => {
           <div className="_experience">
             <Experience data={experience} />
           </div>
-          <div className="_education">
-            <Education data={education} />
-          </div>
         </div>
         
         <div className="right-section">
@@ -37,6 +34,9 @@ const App = () => {
           <div className="_extras">
             <Extra data={others} />
           </div>
+          <div className="_education">
+            <Education data={education} />
+          </div>
         </div>
       </div>
 
@@ -44,9 +44,8 @@ const App = () => {
 
       {!footer.isHidden && (<div className="footer">
         { footer.info }
-        {' - '}
         <span className="footer-link">
-          [<a href={footer.link} target="_blank" rel="noopener noreferrer">&nbsp;{footer.link}&nbsp;</a>]
+          <a href={footer.link} target="_blank" rel="noopener noreferrer">&nbsp;{footer.link}&nbsp;</a>
         </span>
       </div>)}
     </div>

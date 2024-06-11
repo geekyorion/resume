@@ -6,7 +6,7 @@ const Skills = ({ data }) => {
 
   return (
     <div className="skills-wrapper">
-      <h3 className="sub-comp-header">Skills</h3>
+      <h3 className="section-heading sub-comp-header">Skills</h3>
       <div className="skills-scales">
         {new Array(6).fill(null).map((_, index) => (
           <div className="skills-scale" key={`scale-${index}`}></div>

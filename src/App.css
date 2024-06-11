@@ -27,6 +27,14 @@
   flex: 3;
 }
 
+.left-section .section-heading {
+  font-size: 2rem;
+}
+  
+.right-section .section-heading {
+  font-size: 1.6rem;
+}
+
 .right-section {
   flex: 2;
 }

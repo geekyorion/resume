@@ -6,7 +6,7 @@ const Achievements = ({ data }) => {
   
   return (
     <div className="achievements-wrapper">
-      <h3 className="sub-comp-header">Achievements</h3>
+      <h3 className="section-heading sub-comp-header">Achievements</h3>
       <ul className="achievements">
         {achievementsData.map((achievement, index) => (
           <li className="achievement" key={`ach-${index}`}>

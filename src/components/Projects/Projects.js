@@ -7,7 +7,7 @@ const Projects = ({ data }) => {
 
   return (
     <div className="project-wrapper">
-      <h3 className="project-header-text">Projects</h3>
+      <h3 className="section-heading project-header-text">Projects</h3>
       {projectState.filter(p => !p.isHidden).map((project, index) => (
         <div className="project" key={`project-${index}`}>
           <div className="project-name">

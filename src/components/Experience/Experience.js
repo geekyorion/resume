@@ -8,7 +8,7 @@ const Experinece = ({ data }) => {
   
   return (
     <div className="experience-wrapper">
-      <h3 className="experience-header-text">Work Experience</h3>
+      <h3 className="section-heading experience-header-text">Work Experience</h3>
       {expState.map((exp, index) => (
         <div className="experience" key={`exp-${index}`}>
           <p className="company-name">{exp.company}</p>
