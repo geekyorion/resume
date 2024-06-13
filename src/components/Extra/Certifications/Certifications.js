@@ -14,7 +14,7 @@ const Certifications = ({ data }) => {
             <div className="certificate-name">{certificate.name}</div>
             <div className="certificate-basic-info">
               <div className="certificate-org">{certificate.org}</div>
-              <div className="certificate-issued-on">
+              {certificate.valid && (<div className="certificate-issued-on">
                 {getDateFormat(
                   certificate.valid.from,
                   certificate.valid.showCurrent ? 'YYYY' : 'MMM, YYYY'
@@ -25,7 +25,7 @@ const Certifications = ({ data }) => {
                     {getDateFormat(new Date().toLocaleDateString(), 'YYYY')}
                   </>
                 )}
-              </div>
+              </div>)}
             </div>
             {certificate.link && (
               <div className="certificate-link">
@@ -43,9 +43,9 @@ const Certifications = ({ data }) => {
                           [<a href={subCert.link} target="_blank" rel="noopener noreferrer">&nbsp;{subCert.link}&nbsp;</a>]
                         </div>
                       )}
-                      <div className="certificate-issued-on">
+                      {subCert.issuedOn && (<div className="certificate-issued-on">
                         {getDateFormat(subCert.issuedOn, 'MMM DD, YYYY')}
-                      </div>
+                      </div>)}
                     </div>
                   </li>
                 ))}

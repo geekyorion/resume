@@ -28,7 +28,7 @@ const App = () => {
         </div>
         
         <div className="right-section">
-          {projects && Array.isArray(projects) && projects.length > 0 && <div className="_projects">
+          {projects && Array.isArray(projects) && projects.filter(_p => !_p.isHidden).length > 0 && <div className="_projects">
             <Projects data={projects} />
           </div>}
           <div className="_extras">
