@@ -78,7 +78,7 @@
     ],
     "image": {
       "imageName": "profile.jpeg",
-      "showImage": false
+      "showImage": true
     },
     "badges": {
       "isHidden": true,
