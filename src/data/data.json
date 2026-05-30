@@ -6,7 +6,7 @@
       "startDate": "Oct 01, 2018",
       "replacer": "{{experience}}"
     },
-    "bio": "Web developer with {{experience}} of experience specializing in React, Angular, and Micro Frontend (MFE) architecture. Adept at delivering efficient, high-quality solutions with a focus on modularity and scalability. Recognized consistently for performance excellence and innovation in web development",
+    "bio": "Accomplished web developer with {{experience}} of professional experience, specializing in React, Angular, and Micro Frontend (MFE) architecture. Passionate about creating modular, scalable solutions with an emphasis on code quality and maintainability. Consistently recognized for delivering high-performance applications and driving technical innovation",
     "isBioVisible": true,
     "contact": [
       {
@@ -16,8 +16,8 @@
         "icon": "email"
       }, {
         "type": "phone",
-        "value": "",
-        "isHidden": true,
+        "value": "+44-78237 05541",
+        "isHidden": false,
         "icon": "phone"
       }, {
         "type": "website",
@@ -27,7 +27,7 @@
         "link": "https://geekyorion.github.io/resume"
       }, {
         "type": "address",
-        "value": "Hyderabad, Telangana",
+        "value": "Reading, United Kingdom",
         "isHidden": false,
         "icon": "address"
       }
@@ -78,7 +78,7 @@
     ],
     "image": {
       "imageName": "profile.jpeg",
-      "showImage": true
+      "showImage": false
     },
     "badges": {
       "isHidden": true,
@@ -95,7 +95,7 @@
         "from": "21 May, 2018",
         "to": "present"
       },
-      "location": "Hyderabad, Telangana",
+      "location": "Reading, UK",
       "work": [
         {
           "role": "Specialist Programmer",
@@ -105,12 +105,20 @@
           },
           "projects": [
             {
+              "name": "SSE PLC",
+              "technologies": ["NextJS", "Azure", "Contentful", "New Relic", "ServiceNow"],
+              "responsibilities": [
+                "Led UI development across 6 concurrent projects with NextJS and Contentful, managing team workflow and code standards",
+                "Integrated services with New Relic for monitoring and performance tracking across applications",
+                "Conducted security audits and vulnerability assessments using SonarQube with compliance implementation"
+              ]
+            },
+            {
               "name": "Citizens Bank",
               "technologies": ["Angular", "TypeScript", "MFE (Single SPA)", "Git", "OpenShift", "Jenkins", "SonarQube", "Datadog"],
               "responsibilities": [
-                "Migrated legacy monolithic architecture to MFE to enable modular deployment and independent scaling",
-                "Optimized build pipeline, reducing overall build time by 60% through effective modularization and automation strategies.",
-                "Created in browser module for robust communication in between MFEs and internal ng-library to provide modularity to reuse the code"
+                "Migrated legacy monolithic architecture to MFE enabling modular deployment, independent scaling, and robust inter-MFE communication through custom ng-library",
+                "Optimized build pipeline, reducing overall build time by 60% through effective modularization and automation strategies"
               ]
             },
             {
@@ -133,9 +141,8 @@
               "name": "Airbus",
               "technologies": ["React", "Git", "ExpressJS", "MongoDB", "Redux"],
               "responsibilities": [
-                "Built a robust app to efficiently manage millions of data entries with high performance and reliability",
-                "Provided web accessibility to enhance user experience",
-                "Created a light weight express server to perform internal operations"
+                "Built a robust, accessible app to efficiently manage millions of data entries with high performance and enhanced user experience",
+                "Developed lightweight Express server for internal operations"
               ]
             }
           ],
@@ -144,7 +151,7 @@
             "Improved CI/CD processes by integrating automated testing, monitoring, and deployment tools like Jenkins, SonarQube, and Datadog",
             "Mentored junior developers and contributed to internal hackathons, earning recognition for innovation and technical excellence"
           ],
-          "showDescription": true
+          "showDescription": false
         },
         {
           "role": "Systems Engineer",
@@ -157,9 +164,8 @@
               "name": "Apple",
               "technologies": ["React", "ReconJS", "Mustache", "SCSS", "GIT"],
               "responsibilities": [
-                "Improved accessibility across multiple web components, ensuring compliance with WCAG standards and delivering an inclusive user experience",
-                "Upgraded the existing mustache template driven components to the latest technology stack, integrating new features and enhancing performance",
-                "Providing optimized solutions for performance"
+                "Improved accessibility across multiple web components ensuring WCAG compliance and inclusive user experience",
+                "Upgraded legacy mustache template-driven components to modern technology stack with new features and performance optimization"
               ]
             }
           ],
@@ -388,7 +394,7 @@
       "achievements": false,
       "certificates": true,
       "skills": true,
-      "softwares": true,
+      "softwares": false,
       "interests": false,
       "languages": false
     }
